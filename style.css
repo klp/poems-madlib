@@ -2,6 +2,10 @@ body {
     background-color: aquamarine;
     font-family: 'Open Sans', sans-serif;
     padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto; /* centers the body */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .poem {
@@ -9,3 +13,10 @@ body {
     white-space: pre-wrap;
     padding: 2rem;
 }
+
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
